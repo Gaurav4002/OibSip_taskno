@@ -1,0 +1,234 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    max-height: fit-content;
+    min-width: fit-content;
+}
+
+.start{
+    height: 100vh;
+    width:100%;
+    background-color: aqua;
+    background-position: center;
+
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right:8%
+}
+.logo{
+    color:blue;
+    font-size:35px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 20px;
+}
+nav ul li a{list-style-type:none;
+    color:brown;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: flex;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color:azure;
+    transition:.4s ;
+}
+.content{
+    position:absolute;
+    top:50%;
+    left:8%;
+    transform:translateY(-50%) ;
+}
+h1{
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 45px;
+    margin:20px 0px 20px;
+}
+h4{color:blueviolet;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h3{
+    color:blueviolet;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.about{
+    width:100%;
+    padding:0px;
+    background-image:url(pc.jpg.jpg);
+    background-size: cover;
+    
+}
+.about img{
+    height: 100px;;
+    width: 100px;
+
+}
+.about-text{
+    width:550px;
+
+}
+.main{height: 400px;
+    width: 600px;
+    max-width:95% ;
+    margin-left: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#191919;
+    transition: all 2s ease-in;
+}
+.about-text h2{
+    color:blanchedalmond;
+    font-size:75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color:white;
+    letter-spacing:2px ;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.about-text p{
+    color:#fcfc;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size:18px;
+    margin-bottom: 45px;
+}
+button{
+    color:white;
+    font-weight:bold;
+    border: 2px;
+    border-radius: 30px;
+    height: 30px;
+    background-color: red;
+}
+button:hover{
+    color:white;
+    transition: .4s;
+}
+.box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 405px;
+    width:570px
+    
+}
+.card{
+    height: 365px;
+    width:500px;
+    padding:20px 35px;
+    background:#191919 ;
+    border-radius: 20px;
+    margin:5px;
+    position:relative;
+    overflow: hidden;
+    text-align:center;
+
+}
+h5{
+    color:white;
+    font-size: 23px;
+    margin-bottom:15px ;
+}
+.pra p{
+    color:white;
+    font-size:16px ;
+    line-height: 27px;
+    margin-bottom:25px;
+    justify-content: space-between;
+    letter-spacing: 4px;
+}
+.box2{ display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 405px;
+    width:570px;
+}
+.book{height: 365px;
+    width:500px;
+    padding:20px 35px;
+    background:#191919 ;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    left:700px;
+     margin-bottom:800px;
+ }
+ h5{ color:white;
+    font-size: 23px;
+    margin-bottom:15px ;
+
+ }
+ .con p{  color:white;
+    font-size:16px ;
+    line-height: 27px;
+    margin-bottom:25px;
+    justify-content: space-between;
+    letter-spacing: 4px;
+
+ }
+ .skill{height: 365px;
+    width:500px;
+    padding:20px 35px;
+    background:#191919 ;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    margin-bottom:400px;
+    left:600px;
+ }
+ h5{color:white;
+    font-size: 23px;
+    margin-bottom:15px ;
+
+
+ }
+ li{
+    color:aliceblue;
+    justify-content: center;
+    justify-content:space-between;
+ }
+ li a{
+    color:white;
+    font-size:23px;
+    justify-content: space-between;
+ }
+ li a:hover{
+    color: red;
+ }
+ footer{
+    position: relative;
+    height:300px;
+    background:palevioletred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 800px;
+
+ }
+ 
+
+
+
